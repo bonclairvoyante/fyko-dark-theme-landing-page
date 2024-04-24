@@ -1,0 +1,50 @@
+:root {
+  --primary-intro-email: hsl(217, 28%, 15%);
+  --primary-main: hsl(218, 28%, 13%);
+  --primary-footer: hsl(216, 53%, 9%);
+  --primary-testimonials: hsl(219, 30%, 18%);
+  --accent-cyan: hsl(176, 68%, 64%);
+  --accent-blue: hsl(198, 60%, 50%);
+  --accent-light-red: hsl(0, 100%, 63%);
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\wght.ttf);
+}
+body {
+  background-color: var(--primary-main);
+  color: white !important;
+}
+.intro, header{
+    background-color: var(--primary-intro-email);
+}
+h1,
+h2,
+button,
+header {
+  font-family: "Raleway";
+}
+h1 {
+  font-weight: 700;
+}
+h2{
+    font-weight: 400;
+}
+.get-started-btn {
+  background-color: var(--accent-cyan);
+  color: white;
+  cursor: pointer;
+}
+.get-started-btn:hover {
+  background-color: #0e7d99;
+}
+.get-started-btn:focus {
+  background-color: aqua;
+}
+.get-started-btn:active {
+  background-color: var(--accent-blue);
+}
