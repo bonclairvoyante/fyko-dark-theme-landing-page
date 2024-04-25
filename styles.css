@@ -17,10 +17,12 @@
 }
 body {
   background-color: var(--primary-main);
-  color: white !important;
+  color: white;
+  font-weight: 400;
 }
-.intro, header{
-    background-color: var(--primary-intro-email);
+.intro,
+header {
+  background-color: var(--primary-intro-email);
 }
 h1,
 h2,
@@ -31,9 +33,10 @@ header {
 h1 {
   font-weight: 700;
 }
-h2{
-    font-weight: 400;
+h2 {
+  font-weight: 400;
 }
+
 .get-started-btn {
   background-color: var(--accent-cyan);
   color: white;
@@ -47,4 +50,11 @@ h2{
 }
 .get-started-btn:active {
   background-color: var(--accent-blue);
+}
+.big-quotes {
+  color: var(--accent-blue);
+}
+figure {
+  background-color: var(--primary-testimonials);
+  color: white;
 }
