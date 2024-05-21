@@ -54,7 +54,31 @@ h2 {
 .big-quotes {
   color: var(--accent-blue);
 }
-figure {
+figure, .cta {
   background-color: var(--primary-testimonials);
   color: white;
+}
+.testimony-name{
+  font-size: small;
+  padding: 0;
+  margin: 0;
+}
+.testimony-p{
+  color: gray;
+  font-size: small;
+  padding: 0;
+  margin: 0;
+}
+.facebook,
+.twitter,
+.instagram {
+  border: 0.1rem solid var(--light-gray);
+  color: white;
+}
+input {
+  border-radius: 0.3rem;
+  border: 0.1rem solid var(--light-gray);
+}
+footer{
+  background-color: var(--primary-footer);
 }
