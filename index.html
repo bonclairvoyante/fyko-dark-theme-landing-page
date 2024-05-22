@@ -48,6 +48,11 @@
     </header>
 
     <section class="intro">
+      <div
+        class="bg-image"
+        style="background-image: url(./assets/images/bg-curvy-desktop.svg)"
+      ></div>
+
       <div class="intro-img text-center">
         <img
           src="./assets/images/illustration-intro.png"
@@ -58,12 +63,14 @@
           All your files in one secure location, <br />
           accessible anywhere.
         </h1>
+
         <p class="pt-2 pb-2">
           Fylo stores all your most important files in one secure location.
           <br />
           Access them wherever you need, share and collaborate with <br />
           friends family, and co-workers.
         </p>
+
         <button
           type="button"
           class="get-started-btn btn px-5 rounded-pill mb-5"
@@ -72,15 +79,6 @@
         </button>
       </div>
     </section>
-
-    <picture>
-      <source srcset="./assets/images/bg-curvy-desktop.svg" />
-      <img
-        src="./assets/images/bg-curvy-mobile.svg"
-        alt=""
-        class="w-100 img-fluid position-absolute top-100 start-50 translate-middle"
-      />
-    </picture>
 
     <section class="show-case">
       <div class="container text-center pt-5">
@@ -113,7 +111,6 @@
             </p>
           </div>
         </div>
-
         <div class="row justify-content-between gx-5 gy-5 p-4">
           <div class="col-md-6 col-sm-12">
             <img
@@ -181,7 +178,7 @@
       </div>
     </section>
 
-    <section class="testimonials w-auto mb-5">
+    <section class="testimonials w-auto mb-3">
       <div class="container">
         <img
           src="./assets/images/bg-quotes.png"
@@ -266,7 +263,7 @@
       </div>
     </section>
 
-    <section class="cta container text-center mt-5 shadow rounded p-5 w-75 ">
+    <section class="cta container text-center shadow rounded p-5 w-75 mb-4">
       <h2><strong>Get early access today</strong></h2>
       <p>
         It only takes a minute to sign up and our free starter tier is extremely
@@ -279,7 +276,7 @@
             type="email"
             name="email"
             id="email"
-            class="col-md-6 col-sm-12 text-center rounded-pill p-2 text-center"
+            class="col-md-6 col-sm-12 text-center rounded-pill p-2 text-center mb-sm-2"
             required
           />
           <button
@@ -293,7 +290,7 @@
     </section>
 
     <footer>
-      <div class="container">
+      <div class="container p-3">
         <img
           src="./assets/images/logo.svg"
           alt="Fylo logo"
@@ -314,7 +311,7 @@
             />
             <p>Park Side, Nairobi, Kenya</p>
           </div>
-          <div class="col-md-2 col-sm-12 phone-email">
+          <div class="col-md-3 col-sm-12 phone-email">
             <div
               class="phone d-flex justify-content-start align-items-start gap-2"
             >
@@ -324,8 +321,9 @@
                 class="mt-1"
               />
               <p>
-                Phone:
-                <a href="tel:+1-543-123-4567 class" class="text-white"
+                <a
+                  href="tel:+1-543-123-4567 class"
+                  class="text-white text-nowrap"
                   >+1-543-123-4567</a
                 >
               </p>
@@ -341,22 +339,24 @@
               <p>example@fylo.com</p>
             </div>
           </div>
-          <ul class="about-us col-md-2 col-sm-12 list-unstyled">
+          <ul
+            class="about-us col-md-2 col-sm-12 list-unstyled d-flex flex-column gap-3"
+          >
             <li>About Us</li>
             <li>Jobs</li>
             <li>Press</li>
             <li>blogs</li>
           </ul>
 
-          <ul class="contact-us col-md-2 col-sm-12 list-unstyled p-2">
+          <ul
+            class="contact-us col-md-2 col-sm-12 list-unstyled d-flex flex-column gap-3"
+          >
             <li>Contact Us</li>
             <li>Terms</li>
             <li>Privacy</li>
           </ul>
 
-          <picture
-            class="icons col-md-2 col-sm-12 d-flex justify-content-center align-items-center mb-5"
-          >
+          <picture class="icons col-md-2 col-sm-12 d-flex">
             <a href="https://facebook.com"
               ><i
                 class="facebook fa-brands fa-facebook-f text-center p-2 rounded-circle"

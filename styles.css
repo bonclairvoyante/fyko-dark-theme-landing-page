@@ -54,16 +54,17 @@ h2 {
 .big-quotes {
   color: var(--accent-blue);
 }
-figure, .cta {
+figure,
+.cta {
   background-color: var(--primary-testimonials);
   color: white;
 }
-.testimony-name{
+.testimony-name {
   font-size: small;
   padding: 0;
   margin: 0;
 }
-.testimony-p{
+.testimony-p {
   color: gray;
   font-size: small;
   padding: 0;
@@ -79,6 +80,7 @@ input {
   border-radius: 0.3rem;
   border: 0.1rem solid var(--light-gray);
 }
-footer{
+footer {
   background-color: var(--primary-footer);
 }
+
