@@ -58,6 +58,8 @@ figure,
 .cta {
   background-color: var(--primary-testimonials);
   color: white;
+  position: relative;
+  bottom: -75px;
 }
 .testimony-name {
   font-size: small;
